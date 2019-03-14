@@ -1,0 +1,20 @@
+{
+  "name": "surf/public",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:Skivers/quiz-in-time.git"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "Skivers/quiz-in-time": "dev-master",
+    "doctrine/orm": "2.5.*",
+    "symfony/yaml": "2.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  }
+}
